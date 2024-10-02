@@ -28,7 +28,7 @@ dotnet publish -c Release -r win-x64 --self-contained
 
 4. L'exécutable sera généré dans le dossier suivant :
    ```
-   <répertoire_du_projet>\bin\Release\net6.0\win-x64\publish\
+   .\FolderDelete\bin\Release\net6.0\win-x64\publish\
    ```
 
 ## Utilisation
