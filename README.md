@@ -35,7 +35,7 @@ dotnet publish -c Release -r win-x64 --self-contained
 
 ### Commande pour exécuter l'application :
 ```
-DeleteFolders.exe <baseDir> <days>
+FolderDelete.exe <baseDir> <days>
 ```
 
 - **`<baseDir>`** : Le répertoire de base dans lequel se trouvent les dossiers à supprimer.
@@ -44,7 +44,7 @@ DeleteFolders.exe <baseDir> <days>
 ### Exemple :
 Pour supprimer tous les dossiers créés il y a plus de 15 jours dans le répertoire `C:\Desktop\dépot\ModifyDate` :
 ```
-DeleteFolders.exe "C:\Desktop\dépot\ModifyDate" 15
+FolderDelete.exe "C:\Desktop\dépot\ModifyDate" 15
 ```
 
 ### Comportement de l'application :
